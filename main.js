@@ -5,7 +5,6 @@ let plus = document.createElement('button')
 let minus = document.createElement('button')
 let reset = document.createElement('button')
 
-display.textContent = '';
 plus.textContent = '+1';
 minus.textContent = '-1';
 reset.textContent = 'reset'
@@ -17,7 +16,7 @@ minus.classList.add('btn', 'btn-danger', 'm-1')
 plus.classList.add('btn', 'btn-success', 'm-1')
 reset.classList.add('btn', 'btn-danger', 'm-2')
 
-display.classList.add('mx-4', 'fs-4', 'fw-bold')
+display.classList.add('m-2', 'mx-4', 'fs-4', 'fw-bold')
 
 let rawData = localStorage.getItem('counter')
 let count = rawData ? Number(rawData) : 0;
