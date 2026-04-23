@@ -16,7 +16,7 @@ minus.classList.add('btn', 'btn-danger', 'm-1')
 plus.classList.add('btn', 'btn-success', 'm-1')
 reset.classList.add('btn', 'btn-danger', 'm-2')
 
-display.classList.add('m-3', 'mx-4', 'fs-4', 'fw-bold')
+display.classList.add('m-2', 'mx-4', 'fs-4', 'fw-bold')
 
 let rawData = localStorage.getItem('counter')
 let count = rawData ? Number(rawData) : 0;
